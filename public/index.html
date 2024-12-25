@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management with Dummy API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management</h1>
+        <form id="employeeForm">
+            <input type="text" id="empName" placeholder="Employee Name" required>
+            <input type="number" id="employeeId" placeholder="Employee ID" required>
+            <button type="submit">Add Employee</button>
+        </form>
+
+        <div class="employee-list">
+            <h2>Employee List</h2>
+            <ul id="employeeList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
